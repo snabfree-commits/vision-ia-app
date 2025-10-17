@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Récupère la clé depuis une variable d'environnement (ne laisse pas la clé dans le code)
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "TA_CLE_API_GEMINI";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 app.use(express.json());
 
